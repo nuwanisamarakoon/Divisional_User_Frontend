@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Notice from './components/Notice';
+import Vedio from './components/Vedio/videoSection';
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
@@ -38,6 +39,7 @@ function App() {
 
           <Wrapper>
             <About />
+            <Vedio />
             <Notice />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
