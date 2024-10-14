@@ -150,6 +150,26 @@
         github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     },
   ];
+
+  export const carousels = [
+    {
+        id: 1,
+        url: "./1.jpg",
+    },
+    {
+        id: 2,
+        url: "./2.jpg",
+    },
+    {
+        id: 3,
+        url: "./3.jpg",
+    },
+    {
+        id: 4,
+        url: "./4.jpg",
+    }
+];
+
   
   
   
